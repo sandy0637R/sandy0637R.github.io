@@ -1,0 +1,31 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one{
+    position: sticky;
+    top: 0px ;
+    background-color: rgb(65, 64, 64);
+    text-align: right;
+}
+.two{
+    float: left;
+    mix-blend-mode: hard-light;
+    padding: 20px;
+}
+.three ul{
+    display: inline-flex;
+    list-style: none;
+}
+.three ul li{
+    padding: 15px;
+    margin: 15px;
+}
+
